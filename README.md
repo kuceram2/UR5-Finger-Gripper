@@ -1,4 +1,20 @@
-# Universal-Robots-Gripper
+# Universal Robots UR5 finger gripper
+
+## Annotation
+This thesis focuses on the design process of an open-source gripper for the UR5 collaborative
+robot and other manipulators from Universal Robots. The design emphasizes easy integration
+of the gripper into the robotic workspace, ensuring that the process is no more complex than
+with commercial gripper models while also minimizing manufacturing complexity. The thesis
+describes the design of the gripper body, which is produced using 3D printing, the electrical
+wiring, the modules and components used for the gripper, and provides a detailed overview of
+the software development aimed at facilitating the gripper's use with the robot. The work
+includes a guide for manufacturing, assembly, connection to the robot, and commissioning of
+the gripper. The appendices contain manufacturing documentation, including 3D models of
+all parts, an electrical wiring diagram, a mechanical drawing, control software, and a test
+program. The conclusion presents the functional product and describes the public release of
+the project results as an open-source project.<br>
+<b> Keywords </b> <br>
+Gripper, robot, design, control, UR5, URCap
 
 ## Anotace
 Tato práce se zabývá procesem návrhu open source chapače pro kolaborativní robot UR5 a další
@@ -14,21 +30,7 @@ představen funkční produkt a popsáno zveřejnění výsledků práce veřejn
 source projektu.
 <b> Klíčová slova </b> <br>
 Chapač, robot, návrh, řízení
-## Annotation
-This thesis focuses on the design process of an open-source gripper for the UR5 collaborative
-robot and other manipulators from Universal Robots. The design emphasizes easy integration
-of the gripper into the robotic workspace, ensuring that the process is no more complex than
-with commercial gripper models while also minimizing manufacturing complexity. The thesis
-describes the design of the gripper body, which is produced using 3D printing, the electrical
-wiring, the modules and components used for the gripper, and provides a detailed overview of
-the software development aimed at facilitating the gripper's use with the robot. The work
-includes a guide for manufacturing, assembly, connection to the robot, and commissioning of
-the gripper. The appendices contain manufacturing documentation, including 3D models of
-all parts, an electrical wiring diagram, a mechanical drawing, control software, and a test
-program. The conclusion presents the functional product and describes the public release of
-the project results as an open-source project.
-<b> Keywords </b> <br>
-Gripper, robot, design, control
+
 
 # DOKUMENTACE PRO KONSTRUKCI CHAPAČE
 Tato část práce osahuje návod na sestavení, zprovoznění a základní způsob použití chapače s cobotem. Přílohou této práce je elektrické a mechanické schéma chapače. Mechanismus pohybu prstů chapače je převzatý z volně dostupné databáze 3D objektů Printables a jeho autorem je společnost A-11 Designs. Převzatý mechanismus jsem upravil v programu Fusion 360 za použití studentské licence a rozšířil ho o další části tak, aby splňoval nároky tohoto projektu. Rozšíření spočívalo ve vymodelování dílu pro uchycení krokového motoru a vnějšího krytu chránícího desku plošných spojů a vodiče. Vnější kryt zároveň umožnil spolehlivé upevnění chapače do příslušného rozhraní cobotu. Všechny zmíněné díly a součásti mechanismu prstů byly vyrobeny na 3D tiskárně z materiálu PET, ten jsem zvolil kvůli jeho lehkosti, pevnosti a dlouhodobé odolnosti. Výhodou této metody výroby dílů je možnost snadného a rychlého nahrazení poškozených nebo opotřebených součástí. Pro pevné spojení jednotlivých dílů jsou použity závitové vložky, zapuštěné přímo do dílů a šrouby. (13)
